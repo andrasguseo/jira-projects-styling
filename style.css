@@ -1,0 +1,28 @@
+/* Make the 2-column setting work */
+.g-project .project-item {
+    width: 47% !important;
+}
+/* Hide project avatar */
+.g-project .project-avatar {
+    display: none;
+}
+/* Decreate project title font size */
+.g-project .project-title {
+    font-size: 12px;
+}
+/* Format the project box a bit */
+.g-project .project-item {
+	background-color: white !important;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+/* Put the filter icons below each other */
+.g-project ul.operations li {
+	display: inline;
+	clear: both;
+}
+/* Hide the little down arrow */
+.g-project ul.operations li a.lnk span {
+	padding-right: 0px;
+	width: 0px;
+}
